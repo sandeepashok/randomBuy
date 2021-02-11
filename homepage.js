@@ -18,6 +18,7 @@ fetch(apiURL)
     <p class="item-price">${"$" + item.price}</p>    
     </div>
     <button class="buy-btn"><a href="../product-brief/product.html">Buy<img class="cart-img" src="./img/carts.svg"/></a></button>
+    <button class="wishlist-btn"><a href="../wishlist/wishlist.html">WishList<img class="cart-img" src="./img/love.svg"/></a></button>
     </div>`
     })
 })

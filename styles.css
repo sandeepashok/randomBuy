@@ -201,6 +201,37 @@ body{
     margin-left: 2px;
 }
 
+.wishlist-btn{
+    display: flex;
+    justify-content: center;
+    margin: -2px 5px 15px 5px;
+    border-radius: 10px;
+    padding: 5px;
+    width: 70%;
+    font-size: large;
+    border:none;
+    outline: none;
+    background-color: rgba(21, 209, 62, 0.363);
+}
+
+.wishlist-btn:active{
+    background-color: lime;
+}
+
+.wishlist-btn a{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+    color: rgb(31, 28, 63);
+}
+
+.wishlist-btn img{
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+
 .container{
     display: flex;
     flex-direction: row;
