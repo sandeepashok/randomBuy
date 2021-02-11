@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanalei&family=Montserrat:wght@300&&family=Pangolin&family=Source+Sans+Pro:wght@300&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.945);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgba(34, 39, 35, 0.795);
+    height: 50px;
+}
+
+.brand-name{
+    font-size: x-large;
+    font-family: 'Pangolin', cursive;
+    font-weight:300;
+    margin: 10px;
+}
+
+.brand-name a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+.search-bar{
+    height: 55%;
+    width: 60%;
+    margin: 10px;
+    border-radius: 25px;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wishlist{
+    height: 55%;
+    background-color:transparent;
+    outline: none;
+    border: none;
+    margin: 0 5px;
+}
+
+.wishlist a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.cart{
+    height: 55%; 
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: transparent;
+    border: none;
+    outline: none; 
+    margin: 0 5px;   
+}
+
+.cart a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+.wishandcart{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-end;
+    margin: -40px 10px 0 10px;
+}
+
+.item-container{
+    height: 450px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-justify: inter-word;
+    margin: 10px;
+    font-size: small;
+    word-wrap: break-word;
+    overflow: scroll;
+    overflow: hidden;
+}
+
+
+.image{
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    display: block;
+}
+
+.wish-btn{
+    color: grey;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: xx-large;
+    margin-top: -5px;
+}
+
+.wish-btn:focus{
+    color: red;
+}
+
+.item-title{
+    text-align: center;
+    margin-bottom: 5px;
+    background-color: rgba(0, 0, 0, 0.116);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.item-price{
+    margin: 5px;
+}
+
+.buy-section{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+}
+
+.item-description{
+    display: inline-block;
+    text-align: center;
+    text-justify: inter-word;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.116);
+}
+
+.buy-btn{
+    display: flex;
+    justify-content: center;
+    margin: 10px 5px 15px 5px;
+    border-radius: 10px;
+    padding: 5px;
+    width: 70%;
+    font-size: large;
+    border:none;
+    outline: none;
+    background-color: rgba(21, 209, 62, 0.363);
+}
+
+.buy-btn:active{
+    background-color: lime;
+}
+
+.buy-btn a{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+    color: rgb(31, 28, 63);
+}
+
+.buy-btn img{
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+
+    
+
