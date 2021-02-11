@@ -1,4 +1,4 @@
-var apiURL = 'https://fakestoreapi.com/products';
+var apiURL = 'https://fakestoreapi.com/products?sort=desc';
 
 fetch(apiURL)
 .then(function(data){
@@ -11,7 +11,6 @@ fetch(apiURL)
     container.className = "sub-container";
     container.id = `${item.id}`;
     container.innerHTML = `<div class="item-container" id="${item.id}">
-    <button class="wish-btn">♥</button>
     <div class="product-container">
     <img src="${item.image}" alt="${item.category}" class="image">
     <p class="item-title">${item.title}</p>
