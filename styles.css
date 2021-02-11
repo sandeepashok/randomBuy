@@ -178,6 +178,11 @@ body{
     margin-left: 2px;
 }
 
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
     
 

@@ -10,6 +10,7 @@ fetch(theApi)
     products.forEach(function(item){
     console.log(item)
     var container = document.querySelector(".container").appendChild(document.createElement('div'))
+    container.className = "sub-container";
     container.id = `${item.id}`;
     container.innerHTML = `<div class="item-container" id="${item.id}">
     <p class="item-title">${item.title}</p>
