@@ -27,7 +27,7 @@ body {
 .brand-name {
     font-size: x-large;
     font-family: 'Pangolin', cursive;
-    font-weight: bold;
+    font-weight: 300;
     margin: 15px;
     margin-left: 10px;
 }
